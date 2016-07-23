@@ -25,5 +25,16 @@ public class Test07 {
     }
     System.out.println( ans );
   }
+  
+  public static void method_sum( String[] args ) {
+    int ans = 0;
+    int start = Integer.parseInt(args[0]);
+    int end = Integer.parseInt(args[1]);
+    
+    for ( int i = start; i <= end; i++ ) {
+      ans = ans + i;
+    }
+    System.out.println( ans );
+  }
 
 }
