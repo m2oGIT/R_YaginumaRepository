@@ -16,7 +16,7 @@ public class Test08 {
    * （メソッド論理名） <br />
    * （説明） <br />
    * 
-   * @param args
+   * @param args 引数なし
    */
   public static void main( String[] args ) {
     int ans = 0;

@@ -16,7 +16,7 @@ public class Test07 {
    * （main） <br />
    * （ans=0に1~100を加算する。） <br />
    * 
-   * @param args
+   * @param args 引数なし
    */
   public static void main( String[] args ) {
     int ans = 0;

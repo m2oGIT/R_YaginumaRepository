@@ -16,7 +16,7 @@ public class Test09 {
    * （メソッド論理名） <br />
    * （説明） <br />
    * 
-   * @param args
+   * @param args 正の整数を入力
    */
   public static void main( String[] args ) {
     int ans = 0;
