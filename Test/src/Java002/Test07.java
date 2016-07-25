@@ -26,15 +26,19 @@ public class Test07 {
     System.out.println( ans );
   }
   
-  public static void method_sum( String[] args ) {
+  /**
+   * imethod_sumj <br />
+   * ians=0‚Éˆø”‚P~ˆø”‚Q‚ğ‰ÁZ‚·‚éBj <br />
+   * 
+   * @param args ®”‚Ìˆø”‚PA‚Q
+   */
+  public static int method_sum( int start, int end) {
     int ans = 0;
-    int start = Integer.parseInt(args[0]);
-    int end = Integer.parseInt(args[1]);
-    
     for ( int i = start; i <= end; i++ ) {
       ans = ans + i;
     }
-    System.out.println( ans );
+    
+    return ans;
   }
 
 }
