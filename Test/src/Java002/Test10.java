@@ -21,7 +21,7 @@ public class Test10 {
   public static void main( String[] args ) {
     int ans = 0;
 
-    ans = Test07.method_sum( 1, 100 );
+    ans = Test07.methodsum( 1, 100 );
 
     System.out.println( ans );
 

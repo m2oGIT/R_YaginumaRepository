@@ -5,16 +5,16 @@
 package Java002;
 
 /**
- * @author （作成者） <br />
- *         （クラス論理名） <br />
- *         （説明） <br />
+ * @author （r-yaginuma） <br />
+ *         （Test08） <br />
+ *         （問2の回答） <br />
  *         更新履歴 yyyy/mm/dd （更新者）：（説明） <br />
  */
 public class Test08 {
 
   /**
-   * （メソッド論理名） <br />
-   * （説明） <br />
+   * （main） <br />
+   * （1~100の奇数のみを加算する。） <br />
    * 
    * @param args 引数なし
    */

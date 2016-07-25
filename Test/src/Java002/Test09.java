@@ -5,16 +5,16 @@
 package Java002;
 
 /**
- * @author （作成者） <br />
- *         （クラス論理名） <br />
- *         （説明） <br />
+ * @author （r-yaginuma） <br />
+ *         （Test09） <br />
+ *         （問3の回答） <br />
  *         更新履歴 yyyy/mm/dd （更新者）：（説明） <br />
  */
 public class Test09 {
 
   /**
-   * （メソッド論理名） <br />
-   * （説明） <br />
+   * （main） <br />
+   * （1~渡された引数１までを加算して表示する。） <br />
    * 
    * @param args 正の整数を入力
    */

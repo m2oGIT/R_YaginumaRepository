@@ -7,14 +7,14 @@ package Java002;
 /**
  * @author （r-yaginuma） <br />
  *         （Test07） <br />
- *         （1~100までの数値をループで回して、加算するコードを作成する。） <br />
+ *         （問1の回答のmainおよび問10のためのmethod。） <br />
  *         更新履歴 yyyy/mm/dd （更新者）：（説明） <br />
  */
 public class Test07 {
 
   /**
    * （main） <br />
-   * （ans=0に1~100を加算する。） <br />
+   * （ans=0に1~100を加算して表示する。） <br />
    * 
    * @param args 引数なし
    */
@@ -25,19 +25,21 @@ public class Test07 {
     }
     System.out.println( ans );
   }
-  
+
   /**
    * （method_sum） <br />
-   * （ans=0に引数１~引数２を加算する。） <br />
+   * （ans=0に引数１~引数２を加算してansを戻り値として返す。） <br />
    * 
-   * @param args 整数の引数１、２
+   * @param start 整数
+   * @param end 整数
+   * @return startからendまでを加算した答え
    */
-  public static int method_sum( int start, int end) {
+  public static int methodsum( int start, int end ) {
     int ans = 0;
     for ( int i = start; i <= end; i++ ) {
       ans = ans + i;
     }
-    
+
     return ans;
   }
 
