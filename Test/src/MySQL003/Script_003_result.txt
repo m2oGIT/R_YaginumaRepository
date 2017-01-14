@@ -1,0 +1,15 @@
+MariaDB [moeiwast_eiwatest_DB01]> \. C:\Users\danmo\git\R_YaginumaRepository\Test\src\MySQL003\Script_003.sql
+Query OK, 0 rows affected (0.10 sec)
+
+Query OK, 1 row affected (0.10 sec)
+
++-------------+-----------+--------------+-----------+-------------+
+| STAFF_NO    | OFFICE_CD | STAFF_NAME   | WORK_TIME | CREATE_DATE |
++-------------+-----------+--------------+-----------+-------------+
+| 10000000001 | 1         | 東京　太郎   |       185 | 2015-01-01  |
+| 10000000003 | 1         | 神奈川　花子 |       140 | 2015-03-01  |
+| 10000000004 | 3         | 大阪　惠     |       190 | 2015-04-01  |
++-------------+-----------+--------------+-----------+-------------+
+3 rows in set (0.13 sec)
+
+MariaDB [moeiwast_eiwatest_DB01]>

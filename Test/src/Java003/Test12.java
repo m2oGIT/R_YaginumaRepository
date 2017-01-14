@@ -25,7 +25,7 @@ public class Test12 {
   public static void main( String[] args ) {
     Date date = new Date();
     SimpleDateFormat date2 = new SimpleDateFormat( "yyyy/MM/dd HH:mm:ss" );
-    System.out.println( date2.format( date ) );
+    System.out.println( "Às“ú‚Í" + date2.format( date ) + "‚Å‚·B" );
   }
 
 }

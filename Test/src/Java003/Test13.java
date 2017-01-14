@@ -20,10 +20,8 @@ public class Test13 {
    */
   public static void main( String[] args ) {
     String msg = "";
-    String wkmsg = "";
     for ( int i = 1; i <= 10; i++ ) {
-      wkmsg = msg;
-      msg = wkmsg + "*";
+      msg = msg + "*";
       System.out.println( msg );
     }
   }

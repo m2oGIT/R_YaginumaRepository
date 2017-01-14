@@ -1,0 +1,16 @@
+MariaDB [moeiwast_eiwatest_DB01]> \. C:\Users\danmo\git\R_YaginumaRepository\Test\src\MySQL003\Script_005.sql
+Query OK, 3 rows affected (0.10 sec)
+Records: 3  Duplicates: 0  Warnings: 0
+
++-------------+-------------+------+-----+---------+-------+
+| Field       | Type        | Null | Key | Default | Extra |
++-------------+-------------+------+-----+---------+-------+
+| STAFF_NO    | varchar(11) | NO   | PRI |         |       |
+| OFFICE_CD   | varchar(3)  | NO   | PRI |         |       |
+| STAFF_NAME  | varchar(50) | NO   | PRI |         |       |
+| WORK_TIME   | double(5,2) | YES  |     | NULL    |       |
+| CREATE_DATE | date        | YES  |     | NULL    |       |
++-------------+-------------+------+-----+---------+-------+
+5 rows in set (0.10 sec)
+
+MariaDB [moeiwast_eiwatest_DB01]>
